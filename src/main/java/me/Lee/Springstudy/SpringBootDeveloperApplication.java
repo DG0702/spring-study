@@ -1,4 +1,4 @@
-package me.Lee.springstudy;
+package me.Lee.Springstudy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

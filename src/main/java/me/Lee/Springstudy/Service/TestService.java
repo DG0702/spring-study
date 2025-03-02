@@ -1,7 +1,7 @@
-package me.Lee.springstudy.service;
+package me.Lee.Springstudy.Service;
 
-import me.Lee.springstudy.DAO.Member;
-import me.Lee.springstudy.repository.MemberRepository;
+import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.Repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
