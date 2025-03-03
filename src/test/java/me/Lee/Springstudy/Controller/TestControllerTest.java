@@ -37,6 +37,7 @@ class TestControllerTest {
     @Autowired
     private MemberRepository memberRepository;
 
+    // MockMvc 객체는 Spring MVC 컨트룰러를 테스트 하기 위해 생성되는 객체
     @BeforeEach
     public void mockMvcSetup(){
         this.mockMvc = MockMvcBuilders.webAppContextSetup(context)
