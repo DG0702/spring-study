@@ -1,6 +1,6 @@
 package me.Lee.Springstudy.Service;
 
-import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.domain.Member;
 import me.Lee.Springstudy.Repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package me.Lee.Springstudy.Repository;
 
-import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

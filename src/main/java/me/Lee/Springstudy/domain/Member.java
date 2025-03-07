@@ -1,4 +1,4 @@
-package me.Lee.Springstudy.Entity;
+package me.Lee.Springstudy.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

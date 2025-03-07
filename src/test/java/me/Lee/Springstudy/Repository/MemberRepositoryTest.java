@@ -1,6 +1,6 @@
 package me.Lee.Springstudy.Repository;
 
-import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.domain.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package me.Lee.Springstudy.Controller;
 
-import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.domain.Member;
 import me.Lee.Springstudy.Service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

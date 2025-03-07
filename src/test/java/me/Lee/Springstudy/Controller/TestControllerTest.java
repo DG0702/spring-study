@@ -1,6 +1,6 @@
 package me.Lee.Springstudy.Controller;
 
-import me.Lee.Springstudy.Entity.Member;
+import me.Lee.Springstudy.domain.Member;
 import me.Lee.Springstudy.Repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
