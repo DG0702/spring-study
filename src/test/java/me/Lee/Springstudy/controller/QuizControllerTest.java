@@ -1,4 +1,4 @@
-package me.Lee.Springstudy.Controller;
+package me.Lee.Springstudy.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;

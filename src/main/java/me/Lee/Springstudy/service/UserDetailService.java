@@ -1,7 +1,7 @@
-package me.Lee.Springstudy.Service;
+package me.Lee.Springstudy.service;
 
 import lombok.RequiredArgsConstructor;
-import me.Lee.Springstudy.Repository.UserRepository;
+import me.Lee.Springstudy.repository.UserRepository;
 import me.Lee.Springstudy.domain.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;

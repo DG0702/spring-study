@@ -1,8 +1,8 @@
-package me.Lee.Springstudy.Service;
+package me.Lee.Springstudy.service;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import me.Lee.Springstudy.Repository.BlogRepository;
+import me.Lee.Springstudy.repository.BlogRepository;
 import me.Lee.Springstudy.domain.Article;
 import me.Lee.Springstudy.dto.AddArticleRequest;
 import me.Lee.Springstudy.dto.UpdateArticleRequest;

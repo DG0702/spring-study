@@ -1,7 +1,7 @@
-package me.Lee.Springstudy.Controller;
+package me.Lee.Springstudy.controller;
 
 import me.Lee.Springstudy.domain.Member;
-import me.Lee.Springstudy.Repository.MemberRepository;
+import me.Lee.Springstudy.repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

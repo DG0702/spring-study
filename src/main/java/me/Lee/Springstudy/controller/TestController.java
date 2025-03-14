@@ -1,7 +1,7 @@
-package me.Lee.Springstudy.Controller;
+package me.Lee.Springstudy.controller;
 
 import me.Lee.Springstudy.domain.Member;
-import me.Lee.Springstudy.Service.TestService;
+import me.Lee.Springstudy.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,7 +1,7 @@
-package me.Lee.Springstudy.Controller;
+package me.Lee.Springstudy.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.Lee.Springstudy.Service.BlogService;
+import me.Lee.Springstudy.service.BlogService;
 import me.Lee.Springstudy.domain.Article;
 import me.Lee.Springstudy.dto.ArticleListViewResponse;
 import me.Lee.Springstudy.dto.ArticleViewResponse;

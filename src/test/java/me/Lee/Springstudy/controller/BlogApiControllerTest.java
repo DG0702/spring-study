@@ -1,7 +1,7 @@
-package me.Lee.Springstudy.Controller;
+package me.Lee.Springstudy.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import me.Lee.Springstudy.Repository.BlogRepository;
+import me.Lee.Springstudy.repository.BlogRepository;
 import me.Lee.Springstudy.domain.Article;
 import me.Lee.Springstudy.dto.AddArticleRequest;
 import me.Lee.Springstudy.dto.UpdateArticleRequest;
@@ -11,18 +11,15 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import javax.xml.transform.Result;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

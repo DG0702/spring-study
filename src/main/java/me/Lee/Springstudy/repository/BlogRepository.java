@@ -1,4 +1,4 @@
-package me.Lee.Springstudy.Repository;
+package me.Lee.Springstudy.repository;
 
 import me.Lee.Springstudy.domain.Article;
 import org.springframework.data.jpa.repository.JpaRepository;

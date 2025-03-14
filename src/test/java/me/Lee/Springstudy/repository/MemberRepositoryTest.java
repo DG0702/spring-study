@@ -1,4 +1,4 @@
-package me.Lee.Springstudy.Repository;
+package me.Lee.Springstudy.repository;
 
 import me.Lee.Springstudy.domain.Member;
 import org.junit.jupiter.api.AfterEach;
